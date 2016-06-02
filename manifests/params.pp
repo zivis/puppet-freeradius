@@ -14,7 +14,7 @@ class freeradius::params {
     'Debian': {
       $fr_guessversion = $::operatingsystemmajrelease ? {
         6       => 2,
-        7       => 2,
+        7       => 3,
         8       => 2,
         default => 2,
       }
